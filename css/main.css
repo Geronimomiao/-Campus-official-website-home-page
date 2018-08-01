@@ -1,0 +1,346 @@
+body {
+    position: relative;
+}
+
+header {
+    border-top: 4px solid #ED5441;
+}
+
+.affix {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10000;
+    height: 110px;
+}
+
+#tjpu .nav {
+    border-bottom: none;
+}
+
+#tjpu .pull-left li {
+    height: 110px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#tjpu .pull-left li a {
+    color:#ED5441 ;
+}
+#tjpu .pull-left li a i {
+    font-size: 10px;
+    color: #5097ff;
+    margin-bottom: 15px;
+    margin-left: 4px;
+}
+#tjpu .pull-right li {
+    height: 80px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+#tjpu .nav a {
+    color: black;
+    line-height: 110px;
+     border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 15px;
+}
+
+#tjpu .nav li a:hover{
+    color:#ED5441;
+}
+
+#tjpu .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
+#tjpu .nav-tabs > li.active > a:focus {
+    color: #ED5441;
+    cursor: default;
+}
+
+#bg {
+
+    background-image: url("../img/slide-1.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 650px;
+}
+
+#bg .row {
+    margin-top: 21%;
+}
+
+#bg .container .row h2 {
+    color: white;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+#bg .container .row a {
+    display: block;
+    font-size: 16px;
+    width: 180px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    margin-top: 44px;
+    border-radius: 5px;
+}
+
+#bg .container .row a:hover {
+    background-color: #fff;
+    color: #ED5441;
+}
+
+#history {
+    height: auto;
+    background-color: #f7f7f7;
+    padding-bottom: 60px;
+}
+
+#history .container .top {
+    height: 80px;
+}
+
+#history .container .top h2 {
+    margin-top: 40px;
+    line-height: 80px;
+    color: #ED5441;
+    font-size: 55px;
+    animation-delay: 0.5s;
+}
+#history .container .bottom h2 {
+    margin-top: 30px;
+    line-height: 80px;
+    color: #ED5441;
+    font-size: 55px;
+}
+#history .container img {
+    width: 100%;
+    border: 0;
+    margin-top: 60px;
+}
+#history .row {
+    margin-top: 30px;
+}
+#history .row span {
+    font-size: 51px;
+    font-weight: bolder;
+    font-family: KaiTi;
+}
+
+#institute {
+    background-color: #ED5441;
+    padding-bottom: 25px;
+}
+
+#institute > .container > .row > p {
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 56px;
+}
+
+#institute .row img {
+    width: 100%;
+}
+
+#institute .row .panel-body {
+    font-weight: 600;
+    font-family: KaiTi;
+    font-size: 20px;
+
+}
+
+#institute .row .col-md-3 {
+    margin-bottom: 10px;
+}
+
+#scenery {
+    background-color: white;
+    padding-top: 30px;
+    min-height:650px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#scenery h2 {
+    font-size: 50px;
+    color: #ED5441;
+    margin-bottom: 18px;
+}
+
+#scenery .row img{
+    width: 87%;
+    display: inline-block;
+    /* height: 92%; */
+    /* margin: 0px; */
+    /* margin-bottom: 0px; */
+}
+#scenery .row .col-md-3 {
+    padding-bottom: 20px;
+}
+#scenery ul li {
+    margin-top: 10px;
+    list-style: none;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#scenery ul li a {
+    display: block;
+    height: 40px;
+    border: 2px solid #c2c2c2;
+    border-radius: 11px;
+    text-decoration: none;
+    line-height: 39px;
+    color: #7c7c7c;
+}
+
+#scenery ul li a:hover {
+    background: #fff;
+    color: #ED5441;
+    text-decoration: none;
+    border: #ED5441 solid 2px;
+}
+
+#teachers {
+    background-color: #e0e0e0;
+    padding-bottom: 20px;
+}
+
+#teachers .panel {
+    height: 500px;
+    background-color: #fff;
+}
+
+#teachers h2 {
+    font-size: 50px;
+    color: #ED5441;
+    margin-bottom: 18px;
+}
+
+#teachers .panel-heading {
+    border: none;
+    background-color: #fff;
+}
+#teachers img {
+    width: 100%;
+}
+#teachers .panel-body h5 {
+    color: #143E7A;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+#teachers .panel-body p {
+    text-indent: 2em;
+}
+
+#teachers .panel {
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 8px;
+}
+
+.wsm1 {
+    padding-bottom: 6px;
+}
+.wsm2 {
+    padding-bottom: 11px;
+}
+
+#clubs {
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+#clubs h2 {
+    font-size: 50px;
+    color: #ED5441;
+    margin-bottom: 26px;
+    margin-top: 34px;
+}
+#clubs .row img {
+    width: 100%;
+}
+
+#contact {
+    background-color: #333333;
+    height: auto;
+    padding-bottom: 130px;
+}
+
+#contact h2 {
+    padding-top: 150px;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+#contact .row .col-md-4 h4 {
+    color: #888;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#contact .row .col-md-4 p {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+#contact .row .col-md-8 input {
+    background-color: transparent;
+    border-radius: 4px;
+    height: 49px;
+    line-height: 51px;
+    font-size: 19px;
+    outline: none;
+}
+
+#contact .row .col-md-8 textarea {
+    background-color: transparent;
+    border-radius: 4px;
+    height: 174px;
+    font-size: 20px;
+    resize: none;
+    outline: none;
+}
+#contact .row .col-md-8 button {
+    /* top: 10px; */
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #ED5441;
+    display: block;
+    width: 164px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#contact .row .col-md-8 button:hover {
+    color: black;
+    background-color: #fff;
+}
+footer {
+    padding-top: 20px;
+    background-color: #333333;
+    height: auto;
+    border-top: 2px solid #555;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 19px;
+    /* padding-bottom: 5px; */
+}
